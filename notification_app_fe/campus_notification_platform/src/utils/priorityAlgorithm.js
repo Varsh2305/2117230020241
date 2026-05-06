@@ -1,4 +1,4 @@
-import { Log } from "../../../logging_middleware";
+import { Log } from "../logging_middleware";
 
 // Placement is most important, then Result, then Event
 const TYPE_WEIGHT = {

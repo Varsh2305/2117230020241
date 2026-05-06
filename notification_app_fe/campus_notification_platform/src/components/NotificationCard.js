@@ -8,7 +8,7 @@ import WorkIcon from "@mui/icons-material/Work";
 import SchoolIcon from "@mui/icons-material/School";
 import EventIcon from "@mui/icons-material/Event";
 import { markAsRead } from "../utils/readState";
-import { Log } from "../../../logging_middleware";
+import { Log } from "../logging_middleware";
 
 const TYPE_CONFIG = {
   Placement: { color: "#1a73e8", bg: "#e8f0fe", Icon: WorkIcon },

@@ -11,7 +11,7 @@ import Link from "next/link";
 import { useNotifications } from "../../hooks/useNotifications";
 import { getTopNNotifications } from "../../utils/priorityAlgorithm";
 import NotificationCard from "../../components/NotificationCard";
-import { Log } from "../../../../logging_middleware";
+import { Log } from "../../logging_middleware";
 
 export default function PriorityInboxPage() {
   const [topN, setTopN] = useState(10);

@@ -10,7 +10,7 @@ import StarIcon from "@mui/icons-material/Star";
 import Link from "next/link";
 import { useNotifications } from "../hooks/useNotifications";
 import NotificationCard from "../components/NotificationCard";
-import { Log } from "../../../logging_middleware";
+import { Log } from "../logging_middleware";
 
 export default function AllNotificationsPage() {
   const [filterType, setFilterType] = useState("");

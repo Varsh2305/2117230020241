@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
-import { Log } from "../../../logging_middleware";
+import { Log } from "../logging_middleware";
 
 const API_BASE = process.env.NEXT_PUBLIC_NOTIFICATION_API;
 const TOKEN = process.env.NEXT_PUBLIC_AUTH_TOKEN;
